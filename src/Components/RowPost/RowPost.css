@@ -1,0 +1,23 @@
+.row{
+    margin: .55em .6em;
+    color: white;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.posters{
+    display: flex;
+    padding: 20px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+posters::-webkit-scrollbar{
+    display: none;
+}
+
+.poster{
+    max-height: 158px;
+    margin-right: 12px;
+
+}
