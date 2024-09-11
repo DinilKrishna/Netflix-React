@@ -22,7 +22,35 @@
     cursor: pointer;
 }
 
-.smallPoster{
-    max-height: 100px;
-    
+.poster:hover{
+    transform: scale(1.05);
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.close-btn {
+    position: absolute;
+    top:5px;
+    right: 5px;
+    background-color: #000000; 
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    font-size: 16 px;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.close-btn:hover {
+    background-color: #d3d3d3; 
+    opacity: 0.5;
 }
